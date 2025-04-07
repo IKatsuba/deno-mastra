@@ -1,0 +1,10 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": ""
+  },
+  "imports": {},
+  "fmt": {
+    "singleQuote": true
+  }
+}
