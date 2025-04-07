@@ -3,7 +3,9 @@
   "tasks": {
     "dev": ""
   },
-  "imports": {},
+  "imports": {
+    "mastra": "npm:mastra@^0.4.4"
+  },
   "fmt": {
     "singleQuote": true
   }
