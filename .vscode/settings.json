@@ -1,0 +1,16 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "prettier.enable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+}
