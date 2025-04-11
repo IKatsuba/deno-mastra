@@ -1,6 +1,7 @@
-import { Agent } from '@mastra/core';
-import { memory } from './memory.ts';
+import { Agent } from '@mastra/core/agent';
 import { openai } from '@ai-sdk/openai';
+
+import { memory } from './memory.ts';
 import { getPackageVersion, searchPackages } from '../../tools/npm-registry.ts';
 import { instructions } from './instructions.ts';
 
