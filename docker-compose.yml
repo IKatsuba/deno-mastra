@@ -67,7 +67,7 @@ services:
       - 3000:3000
     environment:
       <<: *langfuse-worker-env
-      NEXTAUTH_URL: http://localhost:3010
+      NEXTAUTH_URL: http://localhost:3000
       NEXTAUTH_SECRET: mysecret # CHANGEME
       LANGFUSE_INIT_ORG_ID: ${LANGFUSE_INIT_ORG_ID:-1234567890}
       LANGFUSE_INIT_ORG_NAME: ${LANGFUSE_INIT_ORG_NAME:-deno_mastra}
