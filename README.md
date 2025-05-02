@@ -74,6 +74,13 @@ curl -X POST http://localhost:4111/api/agents/npmAgent/generate \
 - `@ai-sdk/openai`: OpenAI integration
 - `zod`: Schema validation
 
+## Blog Articles
+
+Here are some blog articles that provide more context and examples of how to use this repository:
+
+- [Building AI Agents with Mastra and Deno](https://katsuba.dev/articles/building-ai-agents-with-mastra-and-deno): This article explains how to build AI agents using the Mastra framework and Deno runtime.
+- [Adding Langfuse Tracing to Mastra AI Agents](https://katsuba.dev/articles/adding-langfuse-tracing-to-mastra-ai-agents): This article covers how to add Langfuse tracing to your Mastra AI agents for better observability and debugging.
+
 ## License
 
 MIT
